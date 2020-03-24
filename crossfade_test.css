@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+h1{
+	font-family: "Bitter", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 31px;
+}
+.f3d2ac{
+	color: #f3d2ac;
+    text-align: center;
+    padding-top: 30px;
+	
+}
+h2{
+	font-family: 'Pacifico', cursive;
+	font-size:46px;
+	color: #ffffff;
+	font-weight:400;
+	
+}
+.center-white{
+	text-align:center;
+	color: #ffffff;
+    padding: 0;
+    margin: -51px;
+}
+.center-text-white_building_overlay{
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 80px;
+    padding: 0 22px;
+}
+#crossfade {
+    position:relative;
+    height:250px;
+    width:400px;
+}
+#crossfade img {
+    position:absolute;
+    left:0;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;    
+    transition: opacity 1s ease-in-out;
+}
+ 
+#crossfade img.top:hover {
+    opacity:0;
+}
+.bottom,
+.top{
+	width: 980px;
+	height: auto;
+}
+.title{
+	width: 200px;
+	height: 663px;
+	background-color: #1e1d1b;
+	opacity: 0.75;
+	position:absolute;
+	left:35px;
+	top:0;
+}
